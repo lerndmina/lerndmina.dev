@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <head>
+    <meta charset="UTF-8">
+    <script type="text/javascript">
+        window.location.href = "https://lerndmina.dev"
+    </script>
+    </head>
+    <title>Aderlyon - Professional Minecraft Build Team</title>
+    <meta property="og:description" content="">
+    <meta property="og:title" content="">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <!-- Tags for socials & Bootstrap core CSS -->
+    <?php include('assets/php/head.php') ?>
+
+    <!-- Custom styles -->
+    <link href="/assets/css/index.css" rel="stylesheet">
+
+    <script type="text/javascript">
+        var timeleft = 11;
+        var downloadTimer = setInterval(function(){
+            timeleft--;
+            document.getElementById("countdowntimer").textContent = timeleft;
+            if(timeleft <= 0)
+                clearInterval(downloadTimer);
+            if(timeleft === 0)
+                window.history.back();
+        }, 1000);
+    </script>
+</head>
+
+
+<body class="text-center">
+
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+
+    <?php include('assets/php/nav.php') ?>
+
+    <main role="main" class="inner cover">
+        <div class="shadowed">
+            <h1 class="cover-heading">There's nothing here</h1>
+            <p class="lead">
+            <noscript><br/>JavaScript is disabled in your browser use the button below to go to </noscript><br/>
+        </div>
+        <p class="lead">
+            <a href="https://lerndmina.dev" class="btn btn-lg btn-secondary"><noscript>
+                    Aderlyon.com
+                </noscript>
+                <script type="text/javascript">
+                    document.write("Redirecting to Aderlyon.com in ");
+                </script><span id="countdowntimer"></span></a>
+        </p>
+    </main>
+
+    <?php include('assets/php/footer.php'); ?>
+
+</div>
+</body>
+</html>

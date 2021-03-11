@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="801e94eb-3e04-4bef-8a15-bf657995d556" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/com.officiallynebula.site/assets/css/album.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.officiallynebula.site/assets/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.officiallynebula.site/assets/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.officiallynebula.site/assets/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.officiallynebula.site/assets/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.officiallynebula.site/assets/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.officiallynebula.site/assets/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.officiallynebula.site/assets/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.officiallynebula.site/assets/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.officiallynebula.site/assets/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.officiallynebula.site/assets/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.officiallynebula.site/assets/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.officiallynebula.site/assets/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.officiallynebula.site/assets/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.officiallynebula.site/assets/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.officiallynebula.site/assets/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.officiallynebula.site/assets/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.officiallynebula.site/assets/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.officiallynebula.site/assets/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.officiallynebula.site/assets/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.officiallynebula.site/assets/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.officiallynebula.site/assets/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.officiallynebula.site/assets/js/jquery-3.5.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.officiallynebula.site/index.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="1fuhdn8sRCrsA3Spq7MTxzDkug2" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/com.officiallynebula.site" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.splitter.proportion" value="0.2413442" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\adamr\OneDrive - The University of Winchester\Uni-Portfolio\main\portfolio\projects" />
+      <recent name="C:\Users\adamr\OneDrive - The University of Winchester\Uni-Portfolio\main\portfolio" />
+      <recent name="C:\Users\adamr\OneDrive - The University of Winchester\Uni-Portfolio\main\portfolio\Projects\Project1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\adamr\OneDrive - The University of Winchester\Uni-Portfolio\main\com.officiallynebula.site" />
+      <recent name="C:\Users\adamr\OneDrive - The University of Winchester\Uni-Portfolio\main\portfolio\projects" />
+      <recent name="C:\Users\adamr\OneDrive - The University of Winchester\Uni-Portfolio\main\contact" />
+      <recent name="C:\Users\adamr\OneDrive - The University of Winchester\Uni-Portfolio\main" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost/com.officiallynebula.site/index.html">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="801e94eb-3e04-4bef-8a15-bf657995d556" name="Default Changelist" comment="" />
+      <created>1597073974321</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597073974321</updated>
+      <workItem from="1597073975399" duration="424000" />
+      <workItem from="1599382526710" duration="106000" />
+      <workItem from="1599382666829" duration="561000" />
+      <workItem from="1599522870725" duration="382000" />
+      <workItem from="1599827727800" duration="1529000" />
+      <workItem from="1599830015004" duration="3410000" />
+      <workItem from="1599837326023" duration="6470000" />
+      <workItem from="1599909453439" duration="8636000" />
+      <workItem from="1599918188760" duration="142000" />
+      <workItem from="1599949380546" duration="236000" />
+      <workItem from="1599949628378" duration="1245000" />
+      <workItem from="1600612741931" duration="43000" />
+      <workItem from="1600612804978" duration="5931000" />
+      <workItem from="1600779034805" duration="1055000" />
+      <workItem from="1600815843121" duration="39000" />
+      <workItem from="1600816025346" duration="345000" />
+      <workItem from="1600816385082" duration="2000" />
+      <workItem from="1600821548169" duration="123000" />
+      <workItem from="1601130412423" duration="34000" />
+      <workItem from="1601130473175" duration="4133000" />
+      <workItem from="1601854263303" duration="3000" />
+      <workItem from="1602077435928" duration="609000" />
+      <workItem from="1602078854591" duration="919000" />
+      <workItem from="1602160234764" duration="825000" />
+      <workItem from="1603122484112" duration="155000" />
+      <workItem from="1603577473610" duration="11000" />
+      <workItem from="1603577514797" duration="924000" />
+      <workItem from="1604511003999" duration="3629000" />
+      <workItem from="1605806609507" duration="642000" />
+      <workItem from="1605807264237" duration="18000" />
+      <workItem from="1605807291582" duration="238000" />
+      <workItem from="1605808312793" duration="7000" />
+      <workItem from="1605808355204" duration="4460000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1152" y="431" key="#CLI_Interpreters" timestamp="1599950794615">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1152" y="431" key="#CLI_Interpreters/2560.189.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1599950794615" />
+    <state x="1005" y="344" key="#PHP" timestamp="1599950441638">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1005" y="344" key="#PHP/2560.189.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1599950441638" />
+    <state x="684" y="285" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600821660778">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="684" y="285" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600821660778" />
+    <state x="912" y="383" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.189.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1599950532342" />
+    <state x="916" y="479" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601130569225">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="916" y="479" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/2560.189.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1601130569225" />
+    <state x="1066" y="547" key="FileChooserDialogImpl" timestamp="1599950601039">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1066" y="547" key="FileChooserDialogImpl/2560.189.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1599950601039" />
+    <state x="1265" y="0" width="1104" height="1400" key="FileDocumentManager.FileCacheConflict" timestamp="1599832299529">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1265" y="0" width="1104" height="1400" key="FileDocumentManager.FileCacheConflict/2560.189.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1599832299529" />
+    <state x="807" y="462" key="NewPhpClassDialog" timestamp="1605808584761">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="807" y="462" key="NewPhpClassDialog/2560.267.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1605808584761" />
+    <state x="882" y="668" key="NewPhpFileDialog" timestamp="1605808595550">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="882" y="668" key="NewPhpFileDialog/2560.189.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1599916313655" />
+    <state x="882" y="668" key="NewPhpFileDialog/2560.267.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1605808595550" />
+    <state x="71" y="256" width="998" height="708" key="SettingsEditor" timestamp="1605809208221">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1180" y="365" width="998" height="708" key="SettingsEditor/2560.189.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1599950883084" />
+    <state x="71" y="256" key="SettingsEditor/2560.267.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1605809208221" />
+    <state x="640" y="256" key="cloudConfig.SelfSettingsDialog" timestamp="1600815879395">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="640" y="256" key="cloudConfig.SelfSettingsDialog/0.0.1536.824@0.0.1536.824" timestamp="1600815879395" />
+    <state x="1214" y="180" width="1275" height="1061" key="dock-window-1" timestamp="1599910305869">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1214" y="180" width="1275" height="1061" key="dock-window-1/2560.189.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1599910305869" />
+    <state x="703" y="357" key="run.anything.popup" timestamp="1599916821383">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="703" y="357" key="run.anything.popup/2560.189.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1599916821383" />
+    <state x="1121" y="425" width="672" height="678" key="search.everywhere.popup" timestamp="1604513487075">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1121" y="425" width="672" height="678" key="search.everywhere.popup/2560.189.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1599913539482" />
+    <state x="1121" y="425" width="672" height="678" key="search.everywhere.popup/2560.267.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604513487075" />
+  </component>
+</project>
