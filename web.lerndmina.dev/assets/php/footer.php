@@ -2,7 +2,6 @@
 First load footer for index page then footer for everything else index page is weird so requires different footer code.
 -->
     <div class="inner">
-        <p><a href="/">Lerndmina.Dev</a> All rights reserved <?php echo date("Y"); ?> │
-            <a href="https://link.lerndmina.dev/30v2h83">Background image credit</a></p>
+        <p>Website designed by <a href="https://lerndmina.dev">Lerndmina.Dev</a> All rights reserved <?php echo date("Y"); ?></p>
     </div>
 </footer>
