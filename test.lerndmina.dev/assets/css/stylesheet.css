@@ -1,4 +1,5 @@
 html{
+    font-size: 100%;
 
 }
 body{
@@ -8,17 +9,23 @@ body{
     font-family: 'Sanchez', serif;
 
 }
-.nav-mobile{
-    font-size: 6vw;
-
+@media (max-width: 699px){
+.nav-size{
+    font-size: 2.3rem;
 }
-
-@media only screen and (min-width: 981px) {
-    /* For desktop: */
-    .nav-desktop {
-        font-size: 35px;
+}
+@media (min-width: 700px){
+    .nav-size{
+        font-size: 2.7rem;
     }
 }
+
+@media (min-width: 1000px){
+    .nav-size{
+        font-size: 2.9rem;
+    }
+}
+
 .nav-all {
     font-family: 'Questrial', sans-serif;
     font-weight: 400;
@@ -43,25 +50,43 @@ a:hover{
 h1{
     font-family: 'Exo', sans-serif;
     font-weight: 300;
-    font-size: 6vw;
     line-height: 0.5;
     text-align: center;
     margin-top: 50px;
+    font-size: 2.75rem;
 }
 h2{
     font-family: 'Questrial', sans-serif;
     font-weight: 400;
-    font-size: 4vw;
     line-height: 0;
     text-align: center;
     margin-top: 50px;
+    font-size: 2.25rem; // 36px
+}
+@media (min-width: 700px){
+    h1 {
+        font-size: 3.5rem; // 56px
+    }
+}
+
+@media (min-width: 1000px){
+    h1 {
+        font-size: 4.75rem; // 76px
+    }
 }
 p{
-    max-width: 85vw;
+    max-width: 95%;
     text-align: center;
-    margin-left: 3vw;
-    margin-right: 3vw;
-    font-size: 2vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (min-width: 1000px){
+    p{
+        max-width: 1000px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 .logo{
     display: block;

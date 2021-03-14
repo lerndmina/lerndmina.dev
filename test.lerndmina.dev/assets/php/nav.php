@@ -2,7 +2,7 @@
     <img src="/assets/img/logos/3.jpg" class="logo">
 </div>
 
-<div class="nav-mobile nav-desktop nav-all">
+<div class="nav-size nav-all">
     <a href="#">Link </a>-
     <a href="#">Link </a>-
     <a href="#">Link </a>-
