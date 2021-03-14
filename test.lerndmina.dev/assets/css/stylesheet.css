@@ -5,16 +5,27 @@ body{
     background-color: #2d2e2e;
     color: #EBFCFF;
     display: flex;
+    font-family: 'Sanchez', serif;
+
 }
-.nav{
+.nav-mobile{
+    font-size: 6vw;
+
+}
+
+@media only screen and (min-width: 981px) {
+    /* For desktop: */
+    .nav-desktop {
+        font-size: 35px;
+    }
+}
+.nav-all {
     font-family: 'Questrial', sans-serif;
     font-weight: 400;
-    font-size: 40px;
     text-align: center;
     left: 50%;
     overflow: hidden;
     top: 20px;
-    width: 100vw;
     z-index: 9999;
 }
 a{
@@ -23,34 +34,60 @@ a{
 }
 a:hover{
     background: hsla(324, 91%, 46%, 1);
-    background: linear-gradient(0deg, hsla(324, 91%, 46%, 1) 0%, hsla(18, 100%, 49%, 1) 100%);
+    background: linear-gradient(0deg, hsl(324, 91%, 46%) 0%, hsl(18, 100%, 49%) 100%);
     background: -moz-linear-gradient(0deg, hsla(324, 91%, 46%, 1) 0%, hsla(18, 100%, 49%, 1) 100%);
     background: -webkit-linear-gradient(0deg, hsla(324, 91%, 46%, 1) 0%, hsla(18, 100%, 49%, 1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+h1{
+    font-family: 'Exo', sans-serif;
+    font-weight: 300;
+    font-size: 6vw;
+    line-height: 0.5;
+    text-align: center;
+    margin-top: 50px;
+}
+h2{
+    font-family: 'Questrial', sans-serif;
+    font-weight: 400;
+    font-size: 4vw;
+    line-height: 0;
+    text-align: center;
+    margin-top: 50px;
+}
+p{
+    max-width: 85vw;
+    text-align: center;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    font-size: 2vw;
+}
 .logo{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: auto;
-    padding: 1%;
+    max-width: 300px;
+    height: auto;
 }
 .logo-container{
 
 }
-#footer{
-    position: fixed;
-    width: 100%;
+footer{
+    position: relative;
+    width: 95vw;
     height: 2.5rem;            /* Footer height */
     text-align: center;
     bottom: 5px;
 }
 #page-container {
     position: relative;
-    min-height: 100vh;
+    min-height: 93vh;
 }
 
 #content-wrap {
     padding-bottom: 2.5rem;    /* Footer height */
+    padding-left: 5px;
+    padding-right: 5px;
+
 }

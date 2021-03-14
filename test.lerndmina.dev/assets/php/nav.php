@@ -1,12 +1,12 @@
 <div class="logo-container">
-    <img src="https://via.placeholder.com/300x70.png?text=Logo+Here" class="logo">
+    <img src="/assets/img/logos/3.jpg" class="logo">
 </div>
 
-<div class="nav">
-    <a href="#">Link </a>
-    <a href="#">Link </a>
-    <a href="#">Link </a>
-    <a href="#">Link </a>
+<div class="nav-mobile nav-desktop nav-all">
+    <a href="#">Link </a>-
+    <a href="#">Link </a>-
+    <a href="#">Link </a>-
+    <a href="#">Link </a>-
     <a href="#">Link </a>
 </div>
 
