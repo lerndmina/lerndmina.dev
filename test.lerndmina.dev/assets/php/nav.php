@@ -1,6 +1,6 @@
-<div class="logo-container">
+<div class="logo-container"><a href="/">
     <img src="/assets/img/logos/3.jpg" class="logo">
-</div>
+</div></a>
 
 <div class="nav-size nav-all">
     <a href="#">Link </a>-
