@@ -11,18 +11,18 @@ body{
 }
 @media (max-width: 699px){
 .nav-size{
-    font-size: 2.3rem;
+    font-size: 2rem;
 }
 }
 @media (min-width: 700px){
     .nav-size{
-        font-size: 2.7rem;
+        font-size: 2.3rem;
     }
 }
 
 @media (min-width: 1000px){
     .nav-size{
-        font-size: 2.9rem;
+        font-size: 2.5rem;
     }
 }
 
@@ -98,10 +98,24 @@ p{
 }
 .logo{
     display: block;
+    margin-left: 5px;
+    margin-right: auto;
+    max-width: 300px;
+    height: auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.15rem;
+}
+.img{
+    display: block;
     margin-left: auto;
     margin-right: auto;
     max-width: 300px;
     height: auto;
+
+}
+.logo-container{
+
 }
 footer{
     position: relative;
