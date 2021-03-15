@@ -2,10 +2,7 @@
 <html>
 <head>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/assets/php/head.php') ?>
-    <title><?php $title = 'Lerndmina.Dev - Home'; echo $title;?></title>
-    <meta name="title" content="<?php echo $title; ?>">
-    <meta property="og:title" content="<?php echo $title; ?>">
-    <meta property="twitter:title" content="<?php echo $title; ?>">
+
 </head>
 <body>
 <div id="page-container">

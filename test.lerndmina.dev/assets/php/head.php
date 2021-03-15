@@ -1,21 +1,30 @@
 <!--TAGS-->
 <!-- Primary Meta Tags -->
+<title><?php $title =
+        /*Title*/
+        'Lerndmina.Dev - Web Development & SysAdmin';
+    echo $title;?></title>
+<meta name="title" content="<?php echo $title; ?>">
 <meta name="description" content="Welcome to Lerndmina.Dev
 This is just my little portfolio. Come check me out!">
 
 <!-- Open Graph / Facebook -->
+<meta property="og:title" content="<?php echo $title; ?>">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://test.lerndmina.dev/">
 <meta property="og:description" content="Welcome to Lerndmina.Dev
 This is just my little portfolio. Come check me out!">
-<meta property="og:image" content="">
+<meta property="og:image" content="/assets/img/logos/1.jpg">
+<meta property="og:site_name" content="Lerndmina.Dev">
+
 
 <!-- Twitter -->
+<meta property="twitter:title" content="<?php echo $title; ?>">
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:url" content="https://test.lerndmina.dev/">
 <meta property="twitter:description" content="Welcome to Lerndmina.Dev
 This is just my little portfolio. Come check me out!">
-<meta property="twitter:image" content="">
+<meta property="twitter:image" content="/assets/img/logos/1.jpg">
 
 
 
