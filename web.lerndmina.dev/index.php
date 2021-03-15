@@ -10,6 +10,11 @@
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/assets/php/head.php') ?>
     <!-- Custom styles -->
     <link href="/assets/css/index.css" rel="stylesheet">
+
+    
+    <script type="text/javascript">
+        window.location.href = "https://lerndmina.dev"
+    </script>
 </head>
 <body class="text-center">
 
