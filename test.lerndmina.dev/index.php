@@ -2,13 +2,15 @@
 <html>
 <head>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/assets/php/head.php') ?>
-	<title>Lerndmina.Dev - Home</title>
-
+    <title><?php $title = 'Lerndmina.Dev - Home'; echo $title;?></title>
+    <meta name="title" content="<?php echo $title; ?>">
+    <meta property="og:title" content="<?php echo $title; ?>">
+    <meta property="twitter:title" content="<?php echo $title; ?>">
 </head>
 <body>
 <div id="page-container">
  <div id="content-wrap">
-    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/assets/php/nav.php') ?>
+     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/assets/php/nav.php') ?>
      <h1>Welcome </h1>
      <h2>My name is Adam.</h2>
      <h3>I'm proficient in
