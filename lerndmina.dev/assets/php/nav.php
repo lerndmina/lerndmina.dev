@@ -6,6 +6,6 @@
 <div class="nav-size nav-all">
     <a href="#">Contact Me </a>-
     <a href="/">Home </a>-
-    <a href="https://web.lerndmina.dev">Porfolio </a>
+    <a href="https://web.lerndmina.dev/porfolio">Porfolio </a>
 </div>
 
