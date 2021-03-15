@@ -7,6 +7,7 @@
 <meta name="title" content="<?php echo $title; ?>">
 <meta name="description" content="Welcome to Lerndmina.Dev
 This is just my little portfolio. Come check me out!">
+<meta name="theme-color" content="#E93679">
 
 <!-- Open Graph / Facebook -->
 <meta property="og:title" content="<?php echo $title; ?>">
@@ -14,7 +15,7 @@ This is just my little portfolio. Come check me out!">
 <meta property="og:url" content="https://test.lerndmina.dev/">
 <meta property="og:description" content="Welcome to Lerndmina.Dev
 This is just my little portfolio. Come check me out!">
-<meta property="og:image" content="/assets/img/logos/1.jpg">
+<meta property="og:image" content="/assets/img/logos/3.jpg">
 <meta property="og:site_name" content="Lerndmina.Dev">
 
 
@@ -24,7 +25,7 @@ This is just my little portfolio. Come check me out!">
 <meta property="twitter:url" content="https://test.lerndmina.dev/">
 <meta property="twitter:description" content="Welcome to Lerndmina.Dev
 This is just my little portfolio. Come check me out!">
-<meta property="twitter:image" content="/assets/img/logos/1.jpg">
+<meta property="twitter:image" content="/assets/img/logos/3.jpg">
 
 
 
