@@ -4,33 +4,130 @@ tags: University, Group Project
 excerpt: Year 2 Semester 1 Group Project. How can we construct a historically accurate representation of Winchester in the Georgian period? 
 image: /assets/img/placeholder.png
 ---
-# This is the title
-## Subtitle
-### Small-Heading
-#### Uhh? Smaller Heading
-##### Smaller? Wow.
-###### This is just madness.
-Normal Text
+## The Question.
+### How can we construct a historically accurate representation of Winchester in the Georgian period? 
 
-- List (Bullet)
-- List (Bullet)
-- List (Bullet)
-- List (Bullet)
-- List (Bullet)
-- List (Bullet)
+We split our group so we could all work on separate buildings within the whole project. Together with Alex I chose Jane Austen's House. I am experienced at working with hard surface modelling and small props so I picked the interior as my task for the project. Alex worked on the exterior and main building structure . 
 
-```
-Code WEEEEEEEEEEE
-```
-> "Quotes or fancy text? You decide!"
+<p style="text-align: center;"><i>Image below taken from presentation to the client.</i></p>
 
-[LinkText](https://lerndmina.dev) - That's a link that.
+![Virtual Cities Brief Slide](/assets/img/virtual-cities/proj-virtual-cities-brief.png)
 
-| You can even | Make Tables | Like this |
-| ------------ | ----------- | --------- |
-| Table content| Goes | Here |
+## The Client's resources.
+To get started, the Client provided us with some visual research that they previously made. This research was presented in a Pinterest board with pictures of buildings and other examples of old architecture. We used this imagery to give us ideas about what buildings looked like in a developed area during that time. We discovered which buildings we needed to represent in Winchester and gained the information required to accurately recreate them, while maintaining the nuances of the time period. 
 
-This is all so very fancy. What could possibly be next?
+<p style="text-align: center;"><i>Image below taken from Pintrest collection (Deborah Wilson)</i></p>
 
-Uhh, Nothing's next. This is the end. Have fun. :)
+![Screenshot of Pintrest](/assets/img/virtual-cities/proj-virtual-cities-pintrest.png)
 
+## Mockups
+Members of our group made some building mockups (shown below).
+<p style="text-align: center;"><i>The following images were taken as screenshots from the group presentation shown to our Client</i></p>
+
+![Tom's Building Mockups](/assets/img/virtual-cities/proj-virtual-cities-mock1.png)
+![The Deanery - James](/assets/img/virtual-cities/proj-virtual-cities-mock2.png)
+![The Deanery - James](/assets/img/virtual-cities/proj-virtual-cities-mock3.png)
+![Jane Austen's House: Exterior - Alex](/assets/img/virtual-cities/proj-virtual-cities-mock5.png)
+
+## How did I fit in?
+The ultimate aim is to use AR (augmented reality) so that users of the product can wear a pair of AR glasses and explore the environment created as if it were real life. They will be able to wander around the buildings and examine the 3D objects from all sides. The objects I chose to model were a copper kettle and saucepan, made from reference imagery taken from Jane Austin's house [**Chawton Cottage Museum**](https://janeaustens.house/jane-austens-house-from-home/)
+
+<p style="text-align: center;"><i><b>Image credit, <a href="https://janeaustens.house/jane-austens-house-from-home/">Chawton Cottage Museum Virtual Tour</a></b></i></p>
+
+![Fireplace image](/assets/img/virtual-cities/proj-virtual-cities-where-fit-in.png)
+
+## Making an old copper kettle
+### The Main Body
+With Covid restrictions and my own personal health issues, it was not possible to visit the [**Chawton Cottage Museum**](https://janeaustens.house/jane-austens-house-from-home/) in Winchester. However, I was able to find a website with images from the Museum. One image I believed would work well in AR was the copper kettle. Copper has a glorious colour and great reflections. Because copper is a comparatively soft metal, it acquires scratches and dents over time. This makes it very pleasant to look at when rendered well with sharp, angled lighting. In my search for high quality reference material, I found antiques.com where there was an accurate image for a fixed handle copper teakettle circa 1880. This exactly matched the timeframe outlined in the brief and examples shown on the range in the Kitchen of the Museum. 
+
+I was now able to start recreating the model. This wasn't as easy as I hoped. Due mostly to the off perspective of the reference image, it was tricky for me to figure out where everything went, the angles didn't line up properly.
+
+To make the initial 3D superstructure, I started with a cylinder and using loop cuts in edit mode, I matched it to the outline of the kettle in my reference imagery. After creating the basic outline, I decided to work next on the spout. I sub-divided the face of the kettle to create some area to work with. To make the spout, I extruded material out from the body, rotating and scaling it as necessary to match the reference imagery. This was more challenging than I originally thought, I had to keep in mind to turn on blender's X-Ray mode, to allow me to select vertices I could not directly see. A few times during this process I forgot to do this, and ended up with a half spout.
+
+![Kettle Smooth](/assets/img/virtual-cities/proj-virtual-cities-kettle1.png)
+
+Because the final product was going to be displayed in an AR environment, the spout needed to have a hollow tip. This would provide more realism if the user inspected the model closely. To make the tip, I had to subdivide the end of the spout enough to give me some geometry that I could use to extrude inside of the spout itself. I could then bend the interior of the spout enough, to create the illusion that the hole extended the entire length of the spout. I used this method so I wasn't wasting compute power to render something that would not be seen. 
+
+![Kettle Spout](/assets/img/virtual-cities/proj-virtual-cities-kettle3-spout.png)
+
+### The Lid
+The lid started as a sphere. I wanted the shape to be concave to trap steam, and have the smallest surface area possible contacting the kettle body, to prevent shading errors. 
+
+To achieve this I used reference imagery taking inspiration from plates. To start, I made it look like an upside down dinner plate. I then added the lip round the edge using extrusion and scaling in an iterative fashion, to pull it to the shape that I needed. 
+
+In the reference imagery, the top of the lid had a decorative staircase effect. There were alternating acute, obtuse and reflex angles all slightly different from 90°. I started by creating 90° steps. Then selected the rim of each step and bevelled it. I adjusted their position to slightly offset the slope of the steps to match my reference. 
+
+After adjusting the final step, I inserted a face, scaled it down and moved it up, leaving me ready to create the lid handle. I extruded the handle in a similar way to the slope leading up to it. I inserted faces, scaled and moved them to the correct position creating a sloping concave effect with the bulging top that the reference imagery showed. 
+
+![Kettle Lid](/assets/img/virtual-cities/proj-virtual-cities-kettle4.png)
+
+Using the subdivision surface modifier to interpolate the difference in the geometry, I smoothed out the rough areas, creating the look that I needed. To complete the effect, I added loop cuts at the bottom of the sharp areas of the staircase. This added geometry allowed for most of the detail in the sharp curves to remain while keeping the overall smoothed look. 
+
+![Kettle Smooth Lid](/assets/img/virtual-cities/proj-virtual-cities-kettle6-lid-smooth.png)
+
+I noticed there is a roughness in the shading when too many vertices terminate to an N-gon that is too large. To prevent this I inserted a final face and scaled it down allowing for the shading to correct itself. 
+
+![Kettle Subdiv 1](/assets/img/virtual-cities/proj-virtual-cities-kettle5-l.png) ![Kettle Subdiv2](/assets/img/virtual-cities/proj-virtual-cities-kettle5-r.png)
+
+I scaled the lid to fit, then moved it to be in line with the body of the kettle. 
+
+![](/assets/img/virtual-cities/proj-virtual-cities-kettle7.png)
+
+### The Handle
+To extrude the initial shape for the handle supports, I started with a cylinder. From the bottom left hand corner I rotated the face of the cylinder to be vertical, extruded up, then slowly angled left a little more than 90 degrees. From that angle I scaled it to be slightly thicker, extruded some more and rotated to the right to reach the beginning of the thickened handle section. I then chose to make the gripped portion of the handle thick and flat to provide an ergonomically comfortable gripping surface. I then reversed the process on the other side but not as a complete mirror, so matching my reference imagery. This makes the handle higher towards the spout to allow for easier pouring. 
+
+As previously shown I used X-ray mode to allow me to manipulate vertices I could not directly see. To allow the handle to properly fix to the body of the kettle the reference imagery showed for some 'feet' to connect the handle to the main body. I made these by adding a sphere, cutting it in half in edit mode, selecting all of the rim vertices and creating a face. I stretched it in one direction to be more like an oval (a half grape). I then duplicated it to the other side of the handle, placing them on the kettle body and rotating them to to fix to the body (not shown in this image). 
+
+To finish the design, I applied a subdivision surface modifier to the handle and the connecting pieces, to smooth them out and match the kettle body. 
+
+![](/assets/img/virtual-cities/proj-virtual-cities-kettle8.png)
+
+### Finishing Touches
+I found a [**High Dynamic Range Image**](https://hdrihaven.com/) (HDRI) to use as background lighting. This added depth and complexity to the scene. With this lighting, when I unwrapped the model and added my texture there would be something interesting to be reflected by the material. Next, I unwrapped the models surface to make a flat map. This represents the 3D model, so texture can be overlaid on the flat representation and mapped to the model.
+
+To explain the concept of UV unwrapping, I compare it to making cubes out of paper as a kid. To do this you cut out a shape that looks vaguely like a cross, mark the seams and fold it into a cube. This is similar to what happens when you unwrap the UV of a model ,except the process happens in reverse.
+
+<p style="text-align: center;"><i>Image credit, <b><a href="https://en.wikipedia.org/wiki/UV_mapping">Wikipedia</a></b></i></p>
+
+![](/assets/img/virtual-cities/uv-unwrap-demo.png)
+
+The bulk of work in this project is not well demonstrated when looking at the white box model. By overlaying it with a photorealistic texture and well made [**HDRI**](https://hdrihaven.com/) the observer will fully appreciate the 3D elements of my model. By adding a shiny and reflective texture, the model's appeal immediately improves. I am not experienced in creating photorealistic textures from scratch. I used a website called [Quixel Megascans](https://quixel.com/megascans/). It provides high resolution textures for use with 3D work. Once I had acquired the texture I wanted, a copper scratched material, I applied it to my model and customised it. I decided that the original copper colour was too bright. To rectify this I navigated to the material editor, darkened the base colour of the texture, creating a richer final product. 
+
+To finish the kettle, I needed to work on the scen lighting. For this particular model it was quite simple. I added a single point light at an angle a few degrees off from the camera's position. This provides some harsh shadows and fills in for the HDRI's deficiencies. I rendered this scene using the Cycles renderer in Blender. I could then see that the kettle needed a subtle drop shadow, as when I looked at the image on my website, it was definitely missing something. It did not have the punchy effect that I wanted. Adding the drop shadow solved this problem, as it allowed the kettle to stand out from the background on the page. 
+
+![](/assets/img/virtual-cities/proj-virtual-cities-kettle-rendered.png)
+
+## Making The Saucepan
+### Main Body
+The main body started by slicing the top off a sphere in edit mode. Using proportional editing, I moulded the rest of the geometry to match my physical reference. I extruded a flat base, then using extrusion and rotation, I created the lip of the saucepan. Finally I added the subdivision surface modifier to smooth out the surface.
+
+![](/assets/img/virtual-cities/proj-virtual-cities-pot1.png)
+
+![](/assets/img/virtual-cities/proj-virtual-cities-pot2.png)
+
+![](/assets/img/virtual-cities/proj-virtual-cities-pot3.png)
+
+### Handle
+The handle was surprisingly complicated. I started with a cylinder, scaled and rotated it into position. Initially my cylinder had too many sides so I deleted it and remade with six sides. As my pan was currently upside down I needed to rotate it and then in edit mode I added loop cuts along the handle giving me geometry to work with. I then had to ensure the handle was not sticking through the pan. 
+
+![](/assets/img/virtual-cities/proj-virtual-cities-pot4.png)
+
+Using proportional editing I manipulated the handle to be more ergonomic. I then realised the handle was too short so added more length.
+To match my reference material, the handle required a hole in the end to hang it up. I tried to use a Boolean cutter but it looked wrong. Where did the hole come from? Where did the material go when it was punched out? This pan was made during a period of time where the average blacksmith would not have had access to modern technology like electric drills. The blacksmith would have used a punch and anvil to remove material. The copper would have been pushed outwards creating a bulging effect. A Boolean cutter does not do that. At this stage I removed the hole to continue work on the rest of the pan. 
+
+*Handle using Boolean modifier*
+![](/assets/img/virtual-cities/pot-handle-example1.png)
+
+I UV unwrapped the pan, marking the seams as needed. 
+
+![](/assets/img/virtual-cities/pot-uv-example.png)
+
+I applied a copper texture from [**Quixel Megascans**](https://quixel.com/megascans/) and then a global light. Later in the process I added a further light inside the pan to bring up the visual appeal of the render. The current texture was too bright, so I referred back to the kettle model to take inspiration for the texture colour. I added an [**HDRI**](https://hdrihaven.com/) to fill out the lighting and reflections and then a blank backdrop. Using [**Quixel Megascans**](https://quixel.com/megascans/) again I added a backdrop texture. From the video you can see I worked a long time on the marble background, but in the end decided that would be something to achieve when working with my partner, inserting objects into the 3D environment. I reflected that my task at this point was to complete and demonstrate the object without distracting viewers from it, and so used a black backdrop to keep the focus on the 3D model itself. 
+
+![](/assets/img/virtual-cities/pot-handle-no-hole.png)
+
+Referring back to my reference imagery, I realised the handle still needed a hole. The video for creating the hole is extended! I attempted the process several times. Each time it was a nightmarish exercise in futility! I had to redo the process at least four times. I got it working by manually creating the geometry I needed. I split the handle in half, mirrored it, and moulded it into a keyhole like shape for hanging on a rack. It took many attempts to fix the topology but eventually I achieved the shape I desired that matched my reference material.
+
+ <p style="text-align: center;"><i>Pan Building Timelapse</i></p>
+
+[![](/assets/img/virtual-cities/pot-handle-thumb.png)](https://www.youtube-nocookie.com/embed/fPqI8AraTCg)
