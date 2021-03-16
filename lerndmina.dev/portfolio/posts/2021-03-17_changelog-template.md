@@ -1,6 +1,6 @@
 ---
 title: Post Template Title
-tags: Template
+tags: Templates
 excerpt: Something here from the post, short summation of what's going on. 
 image: http://placekitten.com/1200/800 <!--- An image of something relevent to the post  -->
 ---
