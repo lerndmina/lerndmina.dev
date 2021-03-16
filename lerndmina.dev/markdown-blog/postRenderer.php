@@ -1,5 +1,6 @@
 <?php
     require_once __DIR__ .'/../lib/Parsedown.php';
+    include_path='C:\xampp\php\PEAR';
     require_once __DIR__ .'/../lib/ParsedownExtra.php';
     require_once __DIR__ .'/settings.php';
 
