@@ -1,5 +1,9 @@
 <?php get_header($post->title, $post->excerpt); ?>
-
+<style type="text/css">
+	a {
+	text-decoration: underline;
+}
+</style>
 <article>
 	<img src="<?= $post->image; ?>" alt="<?= $post->title; ?>">
 	

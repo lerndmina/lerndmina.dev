@@ -13,6 +13,7 @@ body {
 	margin: auto;
 	background-color: #2d2e2e;
     color: #EBFCFF;
+    font-family: 'Sanchez', serif;
 }
 
 p, ul, ol, blockquote {
@@ -33,13 +34,29 @@ pre {
 }
 
 .site-header {
-	font-weight: bold;
+	/*font-weight: bold;*/
 	margin-bottom: 100px;
 	width: 100%;
 	text-align: center;
 	font-size: 1.3rem;
 	font-family: 'Questrial', sans-serif;
     font-weight: 400;
+}
+@media (max-width: 699px){
+.nav-size{
+    font-size: 1.5rem;
+}
+}
+@media (min-width: 700px){
+    .nav-size{
+        font-size: 2.3rem;
+    }
+}
+
+@media (min-width: 1000px){
+    .nav-size{
+        font-size: 2.5rem;
+    }
 }
 
 /*.site-header .logo {
@@ -95,8 +112,27 @@ p.small, .footnotes {
 
 a {
 	text-decoration: none;
-	color: #ED2B44;
-	font-weight: bold;
+	color: #EBFCFF;
+	/*font-weight: bold;*/
+}
+
+a:hover{
+	color:#EF303B;
+}
+
+h1{
+    font-family: 'Exo', sans-serif;
+    font-weight: 300;
+}
+
+h2{
+	font-family: 'Questrial', sans-serif;
+    font-weight: 400;
+}
+
+h3{
+	font-family: 'Questrial', sans-serif;
+    font-weight: 400;
 }
 
 hr {
