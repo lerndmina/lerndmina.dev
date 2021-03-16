@@ -31,7 +31,6 @@ body{
     font-weight: 400;
     text-align: center;
     left: 50%;
-    overflow: hidden;
     top: 20px;
     z-index: 9999;
 }
@@ -50,26 +49,21 @@ a:hover{
 h1{
     font-family: 'Exo', sans-serif;
     font-weight: 300;
-    line-height: 0.5;
+    line-height: 0.7;
     text-align: center;
-    margin-top: 50px;
     font-size: 2.75rem;
 }
 h2{
     font-family: 'Questrial', sans-serif;
     font-weight: 400;
-    line-height: 0;
     text-align: center;
-    margin-top: 50px;
     font-size: 2.25rem; // 36px
 }
 h3{
     font-family: 'Questrial', sans-serif;
-    font-weight: 400;
-    line-height: 0;
+    font-weight: 400;-
     text-align: center;
-    margin-top: 50px;
-    font-size: 1.5rem; // 36px
+    font-size: 1.75rem; // 36px
 }
 @media (min-width: 700px){
     h1 {
@@ -144,4 +138,9 @@ footer{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
+    padding-top: 0.2em; /* Fix on mobile where the text gets cut off */
+    margin-top: -0.2em; /* Very temporary solotion*/
+
+/*    TODO
+       Make something better than this bodged together POS.*/
 }
