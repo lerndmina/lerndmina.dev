@@ -10,7 +10,7 @@
      <?php require_once($_SERVER['DOCUMENT_ROOT'].'/assets/php/nav.php') ?>
      <h1>Welcome </h1>
      <h2>My name is Adam.</h2>
-     <h2>I do
+     <h2>I'm skilled in 
          <type class="typewrite gradient" data-period="3000" data-type='[ "Web Development.", "Systems Administration.", "Server Management.", "Customer Support." ]'>
              <noscript>Web Design, SysAdmin, Server Management.</noscript>
          </type></h2>
