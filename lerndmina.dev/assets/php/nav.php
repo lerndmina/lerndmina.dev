@@ -4,9 +4,8 @@
 </div></a>
 
 <div class="nav-size nav-all">
-    <a href="#">Contact Me </a>-
+    <a href="#">About Me </a>-
     <a href="/">Home </a>-
-    <a href="https://web.lerndmina.dev/portfolio">Porfolio </a>-
-    <a href="/changelog">Changelog </a>
+    <a href="/portfolio">Porfolio </a>
 </div>
 
