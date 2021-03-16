@@ -35,9 +35,14 @@ pre {
 .site-header {
 	font-weight: bold;
 	margin-bottom: 100px;
+	width: 100%;
+	text-align: center;
+	font-size: 1.3rem;
+	font-family: 'Questrial', sans-serif;
+    font-weight: 400;
 }
 
-.site-header .logo {
+/*.site-header .logo {
 	background: #6a3093;
   	background: linear-gradient(0deg, hsl(324, 91%, 46%) 0%, hsl(18, 100%, 49%) 100%);
   	padding: 25px 0;
@@ -52,7 +57,7 @@ pre {
   	display: inline-block;
   	border-radius: 50%;
   	margin-right: 10px;
-}
+}*/
 
 .site-footer {
 	margin-top: 100px;

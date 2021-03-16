@@ -12,7 +12,7 @@
 <body>
 	<header class="site-header">
 		<a href="/">
-		<div class="logo">&lt;/l&gt</div>
+		<!-- <div class="logo">&lt;/l&gt</div> -->
 		</a>
 		<a href="/about"> 
 			About Me

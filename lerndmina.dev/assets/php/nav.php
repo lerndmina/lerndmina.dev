@@ -4,7 +4,7 @@
 </div></a>
 
 <div class="nav-size nav-all">
-    <a href="#">About Me </a>-
+    <a href="/about">About Me </a>-
     <a href="/">Home </a>-
     <a href="/portfolio">Porfolio </a>
 </div>
