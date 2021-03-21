@@ -16,12 +16,18 @@
          </type></h2>
      <p>Contact Me:</p>
      <div class="socials">
-             <a href="https://dsc.bio/wild" target="_blank">
-                 <img src="/assets/img/svg/discord.svg" alt="A very Cool Image Here" class="svg img">
-             </a>
-             <a href="mailto:wild@lerndmina.dev" target="_blank">
-                 <img src="/assets/img/svg/email.svg" alt="A very Cool Image Here" class="svg img svg-makewhite">
-             </a>
+         <a href="https://dsc.bio/wild" target="_blank">
+             <img src="/assets/img/svg/discord.svg" alt="A very Cool Image Here" title="Discord (Where I spend most of my time)" class="svg">
+         </a>
+         <a href="mailto:wild@lerndmina.dev" target="_blank">
+             <img src="/assets/img/svg/email.svg" alt="A very Cool Image Here" title="Email (Serious Only)" class="svg svg-makewhite">
+         </a>
+         <a href="https://www.reddit.com/user/AWildLerndmina" target="_blank">
+             <img src="/assets/img/svg/reddit.svg" alt="A very Cool Image Here" title="Reddit" class="svg">
+         </a>
+         <a href="https://www.linkedin.com/in/adambolton53/" target="_blank">
+             <img src="/assets/img/svg/linkedin.svg" alt="A very Cool Image Here" title="LinkedIn" class="svg ">
+         </a>
      </div>
 </div>  <!--  Closes Content Wrap  -->
 

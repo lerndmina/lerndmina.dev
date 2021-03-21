@@ -14,3 +14,4 @@ image: https://placekitten.com/800/500 <!--- An image of something relevent to t
 - Fixed responsive on mobile
 - Fixed responsive on desktop *sigh* text now clamps at 1000px wide to for ease of reading
 - Added self typing text on the homepage, fixed timing.
+- Fixed contact icon width & added discord, reddit & linkedin.
