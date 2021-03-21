@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/portfolio/vendor/altorouter/altorouter" />
+      <excludeFolder url="file://$MODULE_DIR$/portfolio/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/portfolio/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/portfolio/vendor/symfony/yaml" />
+      <excludeFolder url="file://$MODULE_DIR$/portfolio/vendor/erusev/parsedown-extra" />
+      <excludeFolder url="file://$MODULE_DIR$/portfolio/vendor/webuni/front-matter" />
+      <excludeFolder url="file://$MODULE_DIR$/portfolio/vendor/suin/php-rss-writer" />
+      <excludeFolder url="file://$MODULE_DIR$/portfolio/vendor/erusev/parsedown" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>

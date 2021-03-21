@@ -101,12 +101,23 @@ p{
     font-size: 1.15rem;
 }
 .img{
-    display: block;
+    display: inline-flex;
     margin-left: auto;
     margin-right: auto;
     max-width: 300px;
     height: auto;
-
+}
+.socials {
+    display: flex;
+    justify-content: center;
+}
+.svg{
+    width: 70px;
+    height: auto;
+    padding: 15px;
+}
+.svg-makewhite{
+    filter: invert(98%) sepia(33%) saturate(823%) hue-rotate(169deg) brightness(98%) contrast(107%);
 }
 .logo-container{
 

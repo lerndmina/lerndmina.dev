@@ -9,16 +9,20 @@
  <div id="content-wrap">
      <?php require_once($_SERVER['DOCUMENT_ROOT'].'/assets/php/nav.php') ?>
      <h1>Welcome </h1>
-     <h2>My name is Adam.</h2>
+     <h2>I'm Wild.</h2>
      <h2>I'm skilled in 
-         <type class="typewrite gradient" data-period="3000" data-type='[ "Web Development.", "Systems Administration.", "Server Management.", "Customer Support." ]'>
-             <noscript>Web Design, SysAdmin, Server Management.</noscript>
+         <type class="typewrite gradient" data-period="3000" data-type='[ "Web Development.", "Systems Administration.", "Customer Support." ]'>
+             <noscript>Web Design, SysAdmin.</noscript>
          </type></h2>
-     <h3><!--List stuff here--></h3>
-     <p>
-         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Iaculis urna id volutpat lacus laoreet non. Eget est lorem ipsum dolor sit amet consectetur adipiscing elit. Pellentesque eu tincidunt tortor aliquam nulla. Pellentesque eu tincidunt tortor aliquam nulla. Quis viverra nibh cras pulvinar mattis nunc sed blandit. Fermentum posuere urna nec tincidunt praesent. Mauris cursus mattis molestie a iaculis. Auctor neque vitae tempus quam pellentesque nec nam aliquam sem. Vitae sapien pellentesque habitant morbi tristique senectus et netus. Nibh mauris cursus mattis molestie a iaculis at erat pellentesque. Consectetur adipiscing elit ut aliquam. Aliquam sem fringilla ut morbi tincidunt augue..
-     </p>
-     <img src="" alt="A very Cool Image Here" class="img">
+     <p>Contact Me:</p>
+     <div class="socials">
+             <a href="https://dsc.bio/wild" target="_blank">
+                 <img src="/assets/img/svg/discord.svg" alt="A very Cool Image Here" class="svg img">
+             </a>
+             <a href="mailto:wild@lerndmina.dev" target="_blank">
+                 <img src="/assets/img/svg/email.svg" alt="A very Cool Image Here" class="svg img svg-makewhite">
+             </a>
+     </div>
 </div>  <!--  Closes Content Wrap  -->
 
         <!--    Footer Here-->

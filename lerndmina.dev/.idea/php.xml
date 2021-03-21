@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/portfolio/vendor/altorouter/altorouter" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/composer" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/erusev/parsedown-extra" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/webuni/front-matter" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/suin/php-rss-writer" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/erusev/parsedown" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7" />
+</project>
