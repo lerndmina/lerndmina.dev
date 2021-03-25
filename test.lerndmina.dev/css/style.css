@@ -37,7 +37,10 @@ a:hover{
     text-align: center;
     font-size: 1.5rem;
 }
-
+.logo{
+    width: 150px;
+    height: auto;
+}
 h1{
     text-align: center;
     font-size: 3rem;
