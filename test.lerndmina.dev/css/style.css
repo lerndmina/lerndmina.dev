@@ -1,0 +1,79 @@
+html{
+
+}
+
+@font-face {
+    font-family: "myriad-pro-semiextended";
+    src: url("/fonts/Myriad Pro Light SemiExtended.otf") format("opentype");
+}
+@font-face {
+    font-family: myriad-pro-semiextended-italic;
+    src: url("/fonts/Myriad Pro Light SemiExtended italic.otf");
+}
+
+body{
+    background: hsla(273, 100%, 7%, 1);
+    background: linear-gradient(120deg, hsla(273, 100%, 7%, 1) 0%, hsla(271, 93%, 12%, 1) 100%);
+    background: -moz-linear-gradient(120deg, hsla(273, 100%, 7%, 1) 0%, hsla(271, 93%, 12%, 1) 100%);
+    background: -webkit-linear-gradient(120deg, hsla(273, 100%, 7%, 1) 0%, hsla(271, 93%, 12%, 1) 100%);
+    background-attachment:fixed;
+    height:100%;
+    color: white;
+
+    font-size: 1rem;
+    font-family: myriad-pro-semiextended, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.nav{
+    font-family: myriad-pro-semiextended, sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+    font-family: myriad-pro-semiextended, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+}
+h2{
+    text-align: center;
+    font-size: 2.25rem;
+    font-family: myriad-pro-semiextended, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+}
+h3{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: myriad-pro-semiextended, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+p{
+    text-align: center;
+}
+.container{
+
+}
+
+
+
+
+
+
+
+footer{
+
+}

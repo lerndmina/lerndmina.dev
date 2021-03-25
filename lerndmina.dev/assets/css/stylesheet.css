@@ -98,7 +98,7 @@ p{
     height: auto;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 1.15rem;
+    font-size: 1.25rem;
 }
 .img{
     display: inline-flex;
@@ -146,6 +146,17 @@ footer{
     background: linear-gradient(0deg, hsl(324, 91%, 46%) 0%, hsl(18, 100%, 49%) 100%);
     background: -moz-linear-gradient(0deg, hsla(324, 91%, 46%, 1) 0%, hsla(18, 100%, 49%, 1) 100%);
     background: -webkit-linear-gradient(0deg, hsla(324, 91%, 46%, 1) 0%, hsla(18, 100%, 49%, 1) 100%);
+
+    /*Nebula's Gradient*/
+   /* background: hsla(279, 100%, 50%, 1);
+
+    background: linear-gradient(180deg, hsla(279, 100%, 50%, 1) 0%, hsla(321, 66%, 23%, 1) 100%);
+
+    background: -moz-linear-gradient(180deg, hsla(279, 100%, 50%, 1) 0%, hsla(321, 66%, 23%, 1) 100%);
+
+    background: -webkit-linear-gradient(180deg, hsla(279, 100%, 50%, 1) 0%, hsla(321, 66%, 23%, 1) 100%);*/
+
+
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
