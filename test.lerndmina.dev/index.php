@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Nebula's Test Site.</title>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/php/head.php') ?>
 </head>
 <body>
