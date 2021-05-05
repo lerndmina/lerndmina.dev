@@ -38,3 +38,13 @@ This is just my little portfolio. Come check me out!">
 <link href="https://fonts.googleapis.com/css2?family=Exo:wght@300&family=Questrial&family=Sanchez&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
 <!--/FONTS-->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SSE9LV78PS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-SSE9LV78PS');
+</script>
