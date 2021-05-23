@@ -25,7 +25,12 @@ body{
         font-size: 2.5rem;
     }
 }
-
+.cloudvice-link:hover{   
+    background: rgb(41,192,213);
+    background: linear-gradient(90deg, rgba(41,192,213,1) 0%, rgba(29,222,249,1) 100%); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .nav-all {
     font-family: 'Questrial', sans-serif;
     font-weight: 400;
@@ -61,7 +66,7 @@ h2{
 }
 h3{
     font-family: 'Questrial', sans-serif;
-    font-weight: 400;-
+    font-weight: 400;
     text-align: center;
     font-size: 1.75rem; // 36px
 }
