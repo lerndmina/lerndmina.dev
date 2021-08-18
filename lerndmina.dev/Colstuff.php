@@ -5,7 +5,7 @@
     <title>something probably goes here</title>
 </head>
 <body>
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/assets/php/nav.php') ?>
+<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/assets/php/nav.html') ?>
 Body suff
 
 </body>

@@ -7,7 +7,7 @@
 <body>
 <div id="page-container">
  <div id="content-wrap">
-     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/assets/php/nav.php') ?>
+     <?php require_once($_SERVER['DOCUMENT_ROOT'] . '/assets/php/nav.html') ?>
      <h1>Welcome </h1>
      <h2>I'm Wild.</h2>
      <h2>I'm skilled in 
