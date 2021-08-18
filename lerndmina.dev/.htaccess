@@ -1,0 +1,17 @@
+# Password Protect file
+<Files /passwd>
+AuthName "Prompt"
+AuthType Basic
+AuthUserFile /passwd/.htpasswd
+Require valid-user
+</Files>
+
+# Prevent viewing of .htaccess file
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+
+# Prevent directory listings
+Options All -Indexes
+

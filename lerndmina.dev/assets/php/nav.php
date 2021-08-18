@@ -9,5 +9,6 @@
 <!--    <a href="#">About Me </a>--->
     <a href="/">Home </a>-
     <a href="/portfolio">Porfolio </a>
+    <a href="Colstuff.php">Colstuff</a>
 </div>
 
