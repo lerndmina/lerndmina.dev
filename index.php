@@ -7,14 +7,14 @@
 <body>
 <div id="page-container">
  <div id="content-wrap">
-     <?php require_once($_SERVER['DOCUMENT_ROOT'] . '/assets/php/nav.html') ?>
+     <?php require_once($_SERVER['DOCUMENT_ROOT'] . '/assets/php/nav.php') ?>
      <h1>Welcome </h1>
      <h2>I'm Wild.</h2>
      <h2>I'm skilled in 
-         <type class="typewrite gradient" data-period="3000" data-type='[ "Web Development.", "Systems Administration.", "Customer Support." ]'>
+         <type class="typewrite gradient" data-period="3000" data-type='[ "Web Development. CSS, HTML5", "Systems Administration.", "Customer Support." ]'>
              <noscript>Web Design, SysAdmin.</noscript>
          </type></h2>
-         <h3>I work for <a class="cloudvice-link" href="https://cloudvice.co.uk"><b>CloudVice</b></a>.</h3>
+<!--         <h3>I work for <a class="blue-link" href="https://cloudvice.co.uk"><b>CloudVice</b></a>.</h3>-->
      <p>Contact Me:</p>
      <div class="socials">
          <a href="https://dsc.bio/wild" target="_blank">

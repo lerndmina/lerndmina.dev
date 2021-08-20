@@ -6,7 +6,8 @@ body{
     background-color: #2d2e2e;
     color: #EBFCFF;
     display: flex;
-    font-family: 'Sanchez', serif;
+    font-family: 'Questrial', sans-serif;
+    font-size: 1rem;
 
 }
 @media (max-width: 699px){
@@ -25,7 +26,7 @@ body{
         font-size: 2.5rem;
     }
 }
-.cloudvice-link:hover{   
+.blue-link:hover{
     background: rgb(41,192,213);
     background: linear-gradient(90deg, rgba(41,192,213,1) 0%, rgba(29,222,249,1) 100%); 
     -webkit-background-clip: text;
@@ -38,6 +39,9 @@ body{
     left: 50%;
     top: 20px;
     z-index: 9999;
+}
+.nav-link{
+    text-decoration: underline;
 }
 a{
     color: #EBFCFF;
@@ -164,7 +168,7 @@ footer{
 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-weight: bold;
+    /*font-weight: bold;*/
     padding-top: 0.2em; /* Fix on mobile where the text gets cut off */
     margin-top: -0.2em; /* Very temporary solotion*/
 

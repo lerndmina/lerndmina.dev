@@ -7,7 +7,8 @@
 
 <div class="nav-size nav-all">
 <!--    <a href="#">About Me </a>--->
-    <a href="/">Home </a>-
-    <a href="/portfolio">Porfolio </a>
+    <a class="nav-link" href="/">Home</a>
+    &#x2000-&#x2000
+    <a class="nav-link" href="/portfolio">Porfolio</a>
 </div>
 
