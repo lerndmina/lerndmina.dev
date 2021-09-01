@@ -6,7 +6,7 @@ body{
     background-color: #2d2e2e;
     color: #EBFCFF;
     display: flex;
-    font-family: 'Questrial', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
 
 }
@@ -33,7 +33,7 @@ body{
     -webkit-text-fill-color: transparent;
 }
 .nav-all {
-    font-family: 'Questrial', sans-serif;
+    font-family: 'Roboto Light', sans-serif;
     font-weight: 400;
     text-align: center;
     left: 50%;
@@ -56,20 +56,20 @@ a:hover{
     -webkit-text-fill-color: transparent;
 }
 h1{
-    font-family: 'Exo', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     line-height: 0.7;
     text-align: center;
-    font-size: 2.75rem;
+    font-size: 2.6rem;
 }
 h2{
-    font-family: 'Questrial', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     text-align: center;
     font-size: 2.25rem; // 36px
 }
 h3{
-    font-family: 'Questrial', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     text-align: center;
     font-size: 1.75rem; // 36px

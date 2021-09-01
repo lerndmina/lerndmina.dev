@@ -40,8 +40,9 @@ pre {
 	width: 100%;
 	text-align: center;
 	font-size: 1.3rem;
-	font-family: 'Questrial', sans-serif;
+	font-family: 'Roboto Light', sans-serif;
     font-weight: 400;
+	text-decoration: underline;
 }
 @media (max-width: 699px){
 .nav-size{
