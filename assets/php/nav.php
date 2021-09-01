@@ -9,6 +9,6 @@
 <!--    <a href="#">About Me </a>--->
     <a class="nav-link" href="/">Home</a>
     &#x2000-&#x2000
-    <a class="nav-link" href="/portfolio">Porfolio</a>
+    <a class="nav-link" href="/portfolio">Portfolio</a>
 </div>
 
